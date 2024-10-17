@@ -1,0 +1,110 @@
+@import "./reset.css";
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background: rgb(56,134,210);
+    background: linear-gradient(90deg, rgba(56,134,210,1) 0%, rgba(76,190,207,1) 100%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    
+}
+.h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+}
+.form {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 54px;
+    border-radius: 5px;
+}
+.input {
+    width: 350px;
+    padding-left: 15px;
+    height: 54px;
+    
+}
+.btn {
+    line-height: 1;
+    color: aliceblue;
+   background-color: brown;
+   border-radius: 5px;
+   text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.4);
+   transition: background-color, 0.5s, ease-in;
+}
+.btn:hover{
+    background-color: rgb(212, 62, 57);
+}
+
+/*Card */
+
+.card {
+    padding: 10px;
+    background: rgb(56,134,210);
+    background: linear-gradient(90deg, rgba(56,134,210,1) 0%, rgba(76,190,207,1) 100%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content:center;
+    margin-top: 100px;
+    height: 200px;
+    width: 380px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.card-city {
+    padding-top: 20px;
+    font-size: 25px;
+}
+.card-temp {
+    font-size: 30px;
+}
+
+.card-city span{
+    color: aliceblue;
+    display: inline-block;
+    border-radius: 6px;
+    background: rgb(35, 104, 173);
+    font-size: 10px;
+    padding: 3px 5px;
+    line-height: 1;
+    vertical-align: text-top;
+}
+
+.card-weather{
+    font-size: 30px;
+}
+
+.weather{
+    row-gap: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.png{
+    width: 25x;
+    height: 25px;
+}
+
